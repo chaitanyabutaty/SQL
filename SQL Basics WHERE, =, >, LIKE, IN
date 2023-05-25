@@ -1,0 +1,21 @@
+SELECT * 
+FROM EmployeeDemographics
+WHERE EmployeeID = '1009'
+SELECT * 
+FROM EmployeeDemographics
+WHERE Age > 20
+
+SELECT * 
+FROM EmployeeDemographics
+WHERE Age > 30 AND Gender = 'MALE'
+
+SELECT * 
+FROM EmployeeDemographics
+WHERE FirstName Like 'S%'
+
+SELECT * 
+FROM EmployeeDemographics
+WHERE FirstName IN ('Pam', 'Dwight', 'Angela')
+
+
+
