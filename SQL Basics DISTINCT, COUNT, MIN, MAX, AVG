@@ -1,0 +1,14 @@
+SELECT DISTINCT(EmployeeID)
+FROM EmployeeDemographics
+
+SELECT COUNT(FirstName)
+FROM EmployeeDemographics
+
+SELECT MIN(Salary)
+FROM EmployeeSalary
+
+SELECT MAX(Salary)
+FROM EmployeeSalary
+
+SELECT AVG(Salary)
+FROM EmployeeSalary
